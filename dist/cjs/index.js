@@ -2810,11 +2810,9 @@ function requireReact_development () {
 
 var React = /*@__PURE__*/getDefaultExportFromCjs(reactExports);
 
-var Button = function (props) {
-    var _a;
-    return (React.createElement("button", null,
-        " ", (_a = props.label) !== null && _a !== void 0 ? _a : " empty"));
-};
+var image = require("./LogoBiodiversiteQuebec.png");
+var Button = function (props) { return (React.createElement("div", { style: { width: "100vw", height: "100vh", backgroundColor: "blue" } },
+    React.createElement("img", { src: image, style: { display: "block", width: "400px", height: "300px" } }))); };
 
 exports.Button = Button;
 //# sourceMappingURL=index.js.map

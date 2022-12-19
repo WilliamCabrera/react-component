@@ -109,5 +109,6 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true
-  }
+  },
+  "include": ["./src", "./src/index.d.ts"]
 }
