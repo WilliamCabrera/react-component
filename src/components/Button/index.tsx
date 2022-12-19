@@ -4,6 +4,6 @@ interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => (
-  <button> {(props.label = props.label ?? " empty")}</button>
+  <button> {props.label ?? " empty"}</button>
 );
 export default Button;

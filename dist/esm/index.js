@@ -2811,8 +2811,8 @@ var React = /*@__PURE__*/getDefaultExportFromCjs(reactExports);
 var Button = function (props) {
     var _a;
     return (React.createElement("button", null,
-        " ",
-        (props.label = (_a = props.label) !== null && _a !== void 0 ? _a : " empty")));
+        " ", (_a = props.label) !== null && _a !== void 0 ? _a : " empty"));
 };
 
 export { Button };
+//# sourceMappingURL=index.js.map
