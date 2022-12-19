@@ -2818,4 +2818,3 @@ var Button = function (props) {
 };
 
 exports.Button = Button;
-//# sourceMappingURL=index.js.map

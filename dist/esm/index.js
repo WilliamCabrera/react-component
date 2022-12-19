@@ -2816,4 +2816,3 @@ var Button = function (props) {
 };
 
 export { Button };
-//# sourceMappingURL=index.js.map
