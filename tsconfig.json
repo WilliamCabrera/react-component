@@ -108,7 +108,8 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": true
+    "emitDeclarationOnly": true,
+    "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["./src", "./src/index.d.ts"]
+  "include": ["./src"]
 }
