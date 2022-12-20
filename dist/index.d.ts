@@ -4,4 +4,6 @@ interface ButtonProps {
 }
 declare const Button: (props: ButtonProps) => JSX.Element;
 
-export { Button };
+declare const Title: () => JSX.Element;
+
+export { Button, Title };
