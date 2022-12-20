@@ -6,7 +6,7 @@ interface ButtonProps {
 }
 
 const Button = (props: ButtonProps) => (
-  <div style={{ width: "100vw", height: "100vh", backgroundColor: "blue" }}>
+  <div className="my-bt" style={{ width: "100vw", height: "50vh" }}>
     <img
       src={image}
       style={{ display: "block", width: "400px", height: "300px" }}

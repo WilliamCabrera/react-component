@@ -2840,7 +2840,7 @@ function styleInject(css, ref) {
 var css_248z = ".my-bt {\n  background-color: red;\n}\n";
 styleInject(css_248z);
 
-var Button = function (props) { return (React.createElement("div", { style: { width: "100vw", height: "100vh", backgroundColor: "blue" } },
+var Button = function (props) { return (React.createElement("div", { className: "my-bt", style: { width: "100vw", height: "50vh" } },
     React.createElement("img", { src: img, style: { display: "block", width: "400px", height: "300px" } }))); };
 
 export { Button };
