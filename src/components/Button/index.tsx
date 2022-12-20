@@ -6,12 +6,10 @@ interface ButtonProps {
 
 const Button = (props: ButtonProps) => (
   <div style={{ width: "100vw", height: "100vh", backgroundColor: "blue" }}>
-    Buttom
+    <img
+      src={image}
+      style={{ display: "block", width: "400px", height: "300px" }}
+    />
   </div>
 );
 export default Button;
-
-// <img
-//      src={image}
-//      style={{ display: "block", width: "400px", height: "300px" }}
-//    />
