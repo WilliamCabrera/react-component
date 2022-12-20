@@ -1,4 +1,5 @@
 /// <reference types="react" />
+import "./bt.css";
 interface ButtonProps {
     label: string;
 }

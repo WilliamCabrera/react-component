@@ -1,5 +1,6 @@
 import React from "react";
 import image from "./LogoBiodiversiteQuebec2.png";
+import "./bt.css";
 interface ButtonProps {
   label: string;
 }
