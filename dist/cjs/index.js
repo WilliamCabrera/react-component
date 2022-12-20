@@ -1,5 +1,7 @@
 'use strict';
 
+require('src/tailwind.css');
+
 function getDefaultExportFromCjs (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
 }
@@ -2848,7 +2850,7 @@ var Button = function (props) { return (React.createElement("div", { className: 
 var css_248z = ".title {\n  color: blue;\n  font-size: 34px;\n}\n";
 styleInject(css_248z);
 
-var Title = function () { return React.createElement("h1", { className: "title" }, " This is a title"); };
+var Title = function () { return (React.createElement("h1", { className: "text-red-500 font-bold text-sm" }, " This is a title")); };
 
 exports.Button = Button;
 exports.Title = Title;
